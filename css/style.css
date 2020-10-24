@@ -1,0 +1,917 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.header {
+    left: 0px;
+    top: -1px;
+    width: 1423px;
+    height: 50px;
+    z-index: 455;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 0px;
+    box-sizing: border-box;
+    position: sticky;
+}
+
+.header--title {
+    left: 50%;
+    top: 60%;
+    width: 155px;
+    height: 23px;
+    margin-left: -77.5px;
+    margin-top: -11.5px;
+    z-index: 460;
+}
+
+.header--title .svg-scale-wrapper {
+    width: 10%;
+    height: 10%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    top: 33%;
+    left: 2.5%;
+    position: absolute;
+}
+
+.small {
+    height: 15%;
+    width: 10%;
+    top: -2px;
+    right: 100px;
+    position: absolute;
+    left: 50%;
+}
+
+.left--links {
+    left: 18%;
+    top: 14px;
+    width: 232px;
+    height: 22px;
+    z-index: 461;  
+    vertical-align: baseline;
+    position: absolute;
+}
+
+.left--link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    text-align: start;
+    text-decoration: none;
+    text-transform: none;
+    color: rgb(145,148,153);
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.right--links {
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    right: 5.4%;
+    top: 25%;
+}
+
+.right--link {
+    margin-right: 10px;
+    color: rgb(145,148,153);
+}
+
+.left--link:hover, .right--link:hover {
+    cursor: pointer;
+    color: white;
+    transition: ease-in color 0.5s;
+}
+
+.left--link--active {
+    color: white;
+}
+
+.buy--button {
+    background-color: rgb(2,106,252);
+    border-radius: 2px;
+    border-width: 0px;
+    border-color: rgb(0,0,0);
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(255,255,255);
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    top: 50%;
+    width: 106px;
+    height: 30px;
+    margin-top: -15px;
+    z-index: 459;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+.buy--button:hover {
+    background-color: black;
+    color: rgb(2,106,252);
+}
+
+.intro {
+    width: 100%;
+    height: 800px;
+    top: 0px;
+    color: #f4f4f4;
+    background: rgb(0, 0, 0);
+    position: absolute;
+}
+
+.intro--text {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.space {
+    margin-top: 160px;
+}
+
+.intro--small {
+    line-height: 1px;
+    padding-left: 60px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.intro > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    letter-spacing: -2px;
+    line-height: 75px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+    color: rgb(255,255,255);
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+    line-height: 46px; 
+    font-size: 60px;
+    padding-left: 60px;
+}
+
+.sketch {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 34%;
+    left: 24%;
+}
+
+.small--detail {
+    font-family: Calibri;
+    letter-spacing: 0.9px;
+    font-size: 23px;
+    padding-left: 60px;
+}
+
+.little--space {
+    padding-bottom: 10px;
+}
+
+.intro--button {
+    background-color: white;
+    border-radius: 2px;
+    border-width: 0px;
+    border-color: black;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    height: 40px;
+    width: 160px;
+}
+
+.intro--button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: white solid 1px;
+    transition: background-color .3s ease,border-color .5s ease,border-width .6s ease;
+}
+
+.intro--image-cover {
+    left: 592px; 
+    top: 140px; 
+    width: 1579px; 
+    height: 400px; 
+    z-index: 301;
+    position: absolute;
+    object-fit: contain;
+}
+
+.intro--image--front {
+    left: 810px;
+    top: 33px; 
+    width: 461px; 
+    height: 700px; 
+    z-index: 304;
+    position: absolute;
+}
+
+.intro--image--front > img {
+    margin-top: 30px;
+    height: 720px;
+    width: 461px; 
+    object-fit: contain;
+}
+
+.intro--footnote {
+    padding-bottom: 80px;
+}
+
+.intro--companies {
+    left: 62px;
+    top: 610px;
+    width: 400px;
+    height: 41px;
+    z-index: 411;
+    transition: opacity .2s ease;
+    position: absolute;
+}
+
+.intro--company {
+    margin-right: 20px;
+}
+
+.info {
+    margin-top: 800px;
+    height: 800px;
+    color: black;
+    position: relative;
+}
+
+.info--header {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.info--header--big {
+    font-size: 60px;
+    padding-left: 260px;
+    padding-right: 260px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.info--body--text {
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: Calibri;
+}
+
+.info--body--details {
+    width: 500px;
+    padding-top: 50px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-left: 260px;
+    position: relative;
+    display: inline-flex;
+}
+
+.detail-1 {
+    position: relative;
+    padding-left: 400px;
+}
+
+.detail-2 {
+    position: relative;
+    margin-left: 250px;
+}
+
+.detail-3 {
+    position: relative;
+    padding-left: -60px;
+}
+
+.number-1, .number-2, .number-3 {
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+.sub-1 {
+    padding-left: 70px;
+    margin-left: 20px;
+    vertical-align: baseline;
+    position: relative;
+    line-break: after-white-space;
+    -webkit-line-break: after-white-space;
+    white-space: pre-wrap;
+    font-size: 20px;
+    top: -45px;
+    width: 1px;
+}
+
+.sub-2 {
+    margin-left: 20px;
+    padding-left: 100px;
+    vertical-align: baseline;
+    position: relative;
+    line-break: after-white-space;
+    -webkit-line-break: after-white-space;
+    white-space: pre-wrap;
+    font-size: 20px;
+    top: -45px;
+    width: 1px;
+}
+
+.sub-3 {
+    padding-left: 260px;
+    vertical-align: baseline;
+    position: relative;
+    line-break: after-white-space;
+    -webkit-line-break: after-white-space;
+    white-space: pre-wrap;
+    font-size: 20px;
+    top: -45px;
+    width: 250px;
+}
+
+.sketch--screen > img {
+    padding-left: 200px;
+    padding-right: 100px;
+    align-self: center;
+    left: 4px;
+    top: 1526px;
+    width: 1014.5px;
+    height: 552.5px;
+    z-index: 403;
+}
+
+.info--sketch--text {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 90px;
+}
+
+.compliance {
+    padding-top: 40px;
+}
+
+.subtitle {
+    padding-left: 100px;
+    font-size: 30px;
+}
+
+.compliance--body{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.compliance--body .text {
+    font-size: 40px;
+    line-height: 1px;
+    line-break: 10px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.compliance--body .body {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-right: 800px;
+    text-align: left;
+} 
+
+.background {
+    left: 460px;
+    top: -430px;
+    z-index: 309;
+    position: relative;
+}
+
+.background > img {
+    width: 790px;
+    height: 530px;
+}
+
+.image {
+    left: 550px;
+    top: -930px;
+    z-index: 309;
+    position: relative;
+}
+
+.image > img {
+    width: 1090px;
+    height: 553px;
+    object-fit: contain;
+}
+
+.templates {
+    color: #f4f4f4;
+    background: rgb(0, 0, 0);
+    position: relative;
+    margin-top: 916px;
+    height: 4180px;
+    width: 100vw;
+}
+
+.templates .header--small {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.templates .header--large {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.templates .header--text {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.templates--cover {
+    left: 30px;
+    top: 47px;
+    z-index: 339;
+    position: relative;
+}
+
+.templates--cover > img {
+    width: 1250px;
+    height: 560px;
+    object-fit: contain;
+}
+
+.wireframe {
+    position: relative;
+    left: -2px;
+    top: -390px;
+    z-index: 339;
+}
+
+.wireframe > img {
+    width: 1275px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.templates--background {
+    left: 250px;
+    z-index: 316;
+    top: -780px;
+    position: relative;
+}
+
+.templates--background > img {
+    width: 1948px;
+    height: 978px;
+}
+
+.templates--sec-background {
+    left: -60px;
+    top: -1301px;
+    z-index: 337;
+    position: relative;
+}
+
+.templates--sec-background > img {
+    width: 1712px;
+    height: 492px;
+}
+
+.templates--sec-wireframes {
+    left: 140px;
+    top: -1720px;
+    z-index: 337;
+    position: relative;
+}
+
+.templates--sec-wireframes > img {
+    width: 1270px;
+    height: 332px;
+}
+
+/*Change Opacity to 0.2 for template images*/
+
+.backdrop {
+    transform: matrix(1, 0, 0, 1, 0, 467.602);
+    opacity: 1;
+    position: relative;
+    top: -2000px;
+    left: 180px;
+}
+
+.backdrop .content {
+    width: 1024px;
+    height: 687px;
+    color: white;
+}
+
+.list {
+    display: inline;
+}
+
+.list .list-item {
+    font-size: 25px;
+    font-family: Calibri;
+}
+
+.list .meta {
+    padding-left: 300px;
+    font-size: 22px;
+    font-family: Calibri;
+    position: relative;
+    top: -4%;
+}
+
+.backdrop .link {
+    display: inline-block;
+    width: 800px;
+    position: relative;
+}
+
+.backdrop .button {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: ease-in color .4s;
+    display: inline-block;
+}
+
+.backdrop .button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(145,148,153);
+    transition: ease-in color .3s;
+} 
+
+.backdrop .description {
+    margin-top: 1050px;
+    display: inline;
+    position: relative;
+}
+
+.backdrop .description .block-2 {
+    top: -118%;
+    position: relative;
+    left: 575px;
+}
+
+.backdrop .description .icon {
+    margin-top: 550px;
+    height: 50px;
+    width: 50px;
+}
+
+.backdrop .description .title {
+    margin-top: 26px;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.backdrop .description .text {
+    width: 500px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.uikit {
+    margin-top: -600px;
+}
+
+.uikit .header--large {
+    padding: 0;
+}
+
+.uikit .header--text {
+    padding-left: 105px;
+    padding-right: 105px;
+    text-align: center;
+    top: 5px;
+    position: relative;
+}
+
+.uikit .center-link {
+    top: 30px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-left: 40%;
+    margin-right: 50%;
+    font-size: 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    transition: background-color .5s ease,border-color .5s ease,border-width .6s ease;
+}
+
+.uikit .center-link:hover {
+    cursor: pointer;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: black solid 1px;
+    transition: background-color .5s ease,border-color .5s ease,border-width .6s ease;
+}
+
+.uikit--laptop {
+    top: 15px;
+    left: 10px;
+    position: relative;
+}
+
+.uikit--laptop > img {
+    width: 1200px;
+    height: 800px;
+    object-fit: contain;
+}
+
+.uikit--laptop .menu {
+    top: -550px;
+    position: relative;
+    left: 890px;
+    width: 320px;
+    height: 300px;
+}
+
+.uikit--laptop .view {
+    top: -500px;
+    position: relative;
+    left: 390px;
+    width: 320px;
+    height: 300px;
+}
+
+.sketch--files {
+    margin-top: 160px;
+    color: black;
+    background-color: white;
+    position: relative;
+    padding-left: 200px;
+}
+
+.sketch--header {
+    font-size: 36px;
+}
+
+.sketch--text {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.sketch--button {
+    margin-top: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    transition: color ease-in .5s;
+}
+
+.sketch--button:hover {
+    color: grey;
+    transition: color ease-out .4s;
+    cursor: pointer;
+}
+
+.sketch--image {
+    position: relative;
+    top: -320px;
+    left: 600px;
+    z-index: 363;
+}
+
+.sketch--image > img {
+    height: 297px;
+    width: 462px;
+    object-fit: contain;
+    transition: opacity .2s ease;
+}
+
+.sketch--image--text {
+    margin-top: 30px;
+    color: black;
+    left: 700px;
+    position: relative;
+}
+
+.meta--text {
+    position: relative;
+    color: #111111;
+    left: -40px;
+    opacity: .5;
+}
+
+.sketch--cards {
+    display: inline-flex;
+    width: 600px;
+    position: relative;
+    flex: 1;
+}
+
+.sketch--card {
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 3px;
+    top: -240px;
+    margin-right: 90px;
+}
+
+.sketch--card .media {
+    background-color: rgb(145, 148, 153);
+}
+
+.sketch--card .media > img {
+    top: 17px;
+    position: relative;
+    height: 160px;
+    width: 200px;
+    object-fit: contain;
+    align-items: center;
+    margin-left: -0.01%;
+}
+
+.sketch--card .text {
+    background-color: rgb(247, 247, 247);
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0px;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Calibri;
+}
+
+.get--kits {
+    background-color: black;
+    color: white;
+    padding-top: 30px;   
+    position: relative;
+    height: 1200px;
+}
+
+.get--kits .header {
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    font-size: 25px;
+}
+
+.get--kits .header--large {
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    font-size: 50px;
+}
+
+.get--kits .header--small {
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    font-size: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-bottom: 80px;
+}
+
+.cards {
+    padding-left: 200px;
+    display: inline-flex;
+}
+
+.cards .card {
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    opacity: 1;
+    left: 31px;
+    top: 7749px;
+    width: 301px;
+    height: 600px;
+    z-index: 315;
+    background-color: rgb(14, 14, 14);
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.cards .card .card-1 {
+    background-image: url("https://d2kq0urxkarztv.cloudfront.net/56fd5ecfedf7a42502965830/1273153/upload-ba40552a-4790-48d0-aeaf-5f9b65914302.png?e=webp");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cards .card .card--title {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+} 
+
+.cards .card .card--desc {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.cards .card .card--image {
+    margin-left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 70%;
+    position: relative;
+    opacity: 0.9;
+}
+
+.cards .card .card--image > img {
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    position: relative;
+    object-fit: contain;
+}
+
+.cards .card .currency {
+    padding-top: 10px;
+    padding-left: 90px;
+    font-size: 23px;
+    position: relative;
+    top: -120px;
+}
+
+.cards .card .price {
+    padding-top: 10px;
+    padding-left: 130px;
+    font-size: 70px;
+    position: relative;
+    top: -190px;
+}
+
+.cards .card button {
+    font-size: 30px;
+    position: relative;
+    top: -160px;
+    margin-left: 30%;
+    border: none;
+    outline: none;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    transition: color .4s ease-in;
+}
+
+.cards .card button:hover {
+    margin-left: 10%;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    width: 80%;
+    color: black;
+    transition: background-color .5s ease,border-color .5s ease,border-width .6s ease, color .4s ease-in;
+}
